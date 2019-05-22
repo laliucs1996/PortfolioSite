@@ -25,14 +25,9 @@ function Projects() {
             </Nav.Link>
           </Nav>
           <Nav className="ml-auto">
-            <Nav.Link href="#git">
-              <SocialIcon url="https://github.com/laliucs1996" />
-            </Nav.Link>
-            <Nav.Link href="#linked">
-              <h4>
-                <SocialIcon url="https://www.linkedin.com/in/larry-liu-d1996" />
-              </h4>
-            </Nav.Link>
+            <SocialIcon url="https://github.com/laliucs1996" />
+            <Nav.Link />
+            <SocialIcon url="https://www.linkedin.com/in/larry-liu-d1996" />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

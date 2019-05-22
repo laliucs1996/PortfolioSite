@@ -4,10 +4,11 @@ import "./App.css";
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import { SocialIcon } from "react-social-icons";
+
 function AboutMe() {
   return (
-    <div className="AboutMe">
-      <Navbar fixed="top" bg="light" expand="sm">
+    <div>
+      <Navbar bg="light" expand="sm">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
@@ -25,14 +26,9 @@ function AboutMe() {
             </Nav.Link>
           </Nav>
           <Nav className="ml-auto">
-            <Nav.Link href="#git">
-              <SocialIcon url="https://github.com/laliucs1996" />
-            </Nav.Link>
-            <Nav.Link href="#linked">
-              <h4>
-                <SocialIcon url="https://www.linkedin.com/in/larry-liu-d1996" />
-              </h4>
-            </Nav.Link>
+            <SocialIcon url="https://github.com/laliucs1996" />
+            <Nav.Link />
+            <SocialIcon url="https://www.linkedin.com/in/larry-liu-d1996" />
           </Nav>
         </Navbar.Collapse>
       </Navbar>
