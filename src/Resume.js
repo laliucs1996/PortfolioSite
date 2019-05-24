@@ -4,6 +4,9 @@ import { PDFObject } from "react-pdfobject";
 import "./Resume.css";
 
 class Resume extends Component {
+  componentDidMount() {
+    document.title = "My Resume!";
+  }
   render() {
     return <PDFObject url="LarryLiuResume.pdf" />;
   }
