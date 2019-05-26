@@ -15,7 +15,7 @@ class AboutMe extends Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="ml-auto">
               <Nav.Link href="/aboutMe">
                 <h5>About Me</h5>
               </Nav.Link>
@@ -25,8 +25,7 @@ class AboutMe extends Component {
               <Nav.Link href="/projects">
                 <h5>Projects</h5>
               </Nav.Link>
-            </Nav>
-            <Nav className="ml-auto">
+              <Nav.Link />
               <SocialIcon url="https://github.com/laliucs1996" />
               <Nav.Link />
               <SocialIcon url="https://www.linkedin.com/in/larry-liu-d1996" />

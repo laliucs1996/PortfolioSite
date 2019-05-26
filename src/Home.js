@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Navbar, Nav, Modal } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import { SocialIcon } from "react-social-icons";
 import { PDFObject } from "react-pdfobject";
@@ -34,31 +34,17 @@ class Home extends Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="ml-auto">
               <Nav.Link href="/aboutMe">
                 <h5>About Me</h5>
               </Nav.Link>
-              <Nav.Link>
-                <h5 onClick={this.handleShow}>Resume</h5>
-                <Modal
-                  ClassName="custom-r"
-                  show={this.state.show}
-                  onHide={this.handleClose}
-                  scrollable="false"
-                  centered="true"
-                >
-                  <Modal.Header closeButton />
-                  <Modal.Body>
-                    <PDFObject url="LarryLiuResume.pdf" />
-                  </Modal.Body>
-                  <Modal.Footer />
-                </Modal>
+              <Nav.Link href="/resume">
+                <h5>Resume</h5>
               </Nav.Link>
               <Nav.Link href="/projects">
                 <h5>Projects</h5>
               </Nav.Link>
-            </Nav>
-            <Nav className="ml-auto">
+              <Nav.Link />
               <SocialIcon url="https://github.com/laliucs1996" />
               <Nav.Link />
               <SocialIcon url="https://www.linkedin.com/in/larry-liu-d1996" />
