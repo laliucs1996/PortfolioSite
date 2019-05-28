@@ -32,42 +32,80 @@ class Projects extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Container>
-          <Row>
-            <Col xs={6}>
-              <div className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                  Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                  className="App-link"
-                  href="https://reactjs.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Learn React
-                </a>
-              </div>
-            </Col>
-            <Col xs={6}>
-              <div className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                  Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                  className="App-link"
-                  href="https://reactjs.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Learn React
-                </a>
-              </div>
-            </Col>
-          </Row>
-        </Container>
+        <div className="TestHeader">
+          <Container>
+            <Row>
+              <Col xs={6}>
+                <div>
+                  <img src={logo} className="App-logo" alt="logo" />
+                  <p>
+                    Edit <code>src/App.js</code> and save to reload.
+                  </p>
+                  <a
+                    className="App-link"
+                    href="https://reactjs.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Learn React
+                  </a>
+                </div>
+              </Col>
+
+              <Col xs={6}>
+                <div>
+                  <img src={logo} className="App-logo" alt="logo" />
+                  <p>
+                    Edit <code>src/App.js</code> and save to reload.
+                  </p>
+                  <a
+                    className="App-link"
+                    href="https://reactjs.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Learn React
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={6}>
+                <div>
+                  <img src={logo} className="App-logo" alt="logo" />
+                  <p>
+                    Edit <code>src/App.js</code> and save to reload.
+                  </p>
+                  <a
+                    className="App-link"
+                    href="https://reactjs.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Learn React
+                  </a>
+                </div>
+              </Col>
+
+              <Col xs={6}>
+                <div>
+                  <img src={logo} className="App-logo" alt="logo" />
+                  <p>
+                    Edit <code>src/App.js</code> and save to reload.
+                  </p>
+                  <a
+                    className="App-link"
+                    href="https://reactjs.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Learn React
+                  </a>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </div>
     );
   }
