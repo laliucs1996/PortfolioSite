@@ -8,7 +8,7 @@ class Resume extends Component {
     document.title = "My Resume!";
   }
   render() {
-    return <PDFObject url="LarryLiuResume.pdf" />;
+    return <PDFObject url="media/LarryLiuResume.pdf" />;
   }
 }
 

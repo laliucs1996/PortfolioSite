@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import { SocialIcon } from "react-social-icons";
-import { PDFObject } from "react-pdfobject";
+
 class Home extends Component {
   constructor(props, context) {
     super(props, context);
@@ -35,6 +34,9 @@ class Home extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
+              <Nav.Link href="/">
+                <h5>Home</h5>
+              </Nav.Link>
               <Nav.Link href="/aboutMe">
                 <h5>About Me</h5>
               </Nav.Link>
@@ -52,18 +54,9 @@ class Home extends Component {
           </Navbar.Collapse>
         </Navbar>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
+          <p className="four">
+            Hi! My name is Larry! <br /> Welcome to my Website!
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
         </header>
       </div>
     );

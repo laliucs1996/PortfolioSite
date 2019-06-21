@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import { Navbar, Nav, Container, Col, Row } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import { SocialIcon } from "react-social-icons";
 
@@ -16,6 +15,9 @@ class Projects extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
+              <Nav.Link href="/">
+                <h5>Home</h5>
+              </Nav.Link>
               <Nav.Link href="/aboutMe">
                 <h5>About Me</h5>
               </Nav.Link>
@@ -32,85 +34,49 @@ class Projects extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <div className="TestHeader">
-          <Container>
-            <Row>
-              <Col xs={6}>
-                <div>
-                  <img src={logo} className="App-logo" alt="logo" />
-                  <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                  </p>
-                  <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Learn React
-                  </a>
-                </div>
-              </Col>
-
-              <Col xs={6}>
-                <div>
-                  <img src={logo} className="App-logo" alt="logo" />
-                  <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                  </p>
-                  <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Learn React
-                  </a>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col xs={6}>
-                <div>
-                  <img src={logo} className="App-logo" alt="logo" />
-                  <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                  </p>
-                  <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Learn React
-                  </a>
-                </div>
-              </Col>
-
-              <Col xs={6}>
-                <div>
-                  <img src={logo} className="App-logo" alt="logo" />
-                  <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                  </p>
-                  <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Learn React
-                  </a>
-                </div>
-              </Col>
-            </Row>
-          </Container>
+        <div className="title">Featured Projects:</div>
+        <div className="projstyleMainA">
+          <div className="p1">
+            <img src="media/sprucetemp.png" />
+          </div>
+          <div className="p15" />
+        </div>
+        <div className="projstyleMain">
+          <div className="p1">
+            <img src="media/powerless.jpg" />
+          </div>
+          <div className="p15" />
+        </div>
+        <div className="projstyleMain">
+          <div className="p1">
+            <img src="media/powerless.jpg" />
+          </div>
+          <div className="p15" />
+        </div>
+        <div className="projstyleMain">
+          <div className="p1">
+            <img src="media/powerless.jpg" />
+          </div>
+          <div className="p15" />
         </div>
       </div>
     );
   }
   componentDidMount() {
     document.title = "My Projects!";
+  }
+  componentWillMount() {
+    document.body.style.width = "null";
+    document.body.style.height = "null";
+    document.body.style.overflow = "null";
+    document.body.style.overflowY = "scroll";
+    document.body.style.overflowx = "hidden";
+  }
+  componentWillUnmount() {
+    document.body.style.width = "100%";
+    document.body.style.height = "100%";
+    document.body.style.overflow = "hidden";
+    document.html.style.overlow = "hidden";
   }
 }
 
