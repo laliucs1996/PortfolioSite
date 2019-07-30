@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.e4c430ce.chunk.css",
-    "main.js": "/repository-name/static/js/main.c5bbc9b8.chunk.js",
-    "main.js.map": "/repository-name/static/js/main.c5bbc9b8.chunk.js.map",
-    "runtime~main.js": "/repository-name/static/js/runtime~main.f7634681.js",
-    "runtime~main.js.map": "/repository-name/static/js/runtime~main.f7634681.js.map",
-    "static/css/2.22a7d4ef.chunk.css": "/repository-name/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.a501e601.chunk.js": "/repository-name/static/js/2.a501e601.chunk.js",
-    "static/js/2.a501e601.chunk.js.map": "/repository-name/static/js/2.a501e601.chunk.js.map",
-    "index.html": "/repository-name/index.html",
-    "precache-manifest.fde6aecef0c2e1e19836122030035ae4.js": "/repository-name/precache-manifest.fde6aecef0c2e1e19836122030035ae4.js",
-    "service-worker.js": "/repository-name/service-worker.js",
-    "static/css/2.22a7d4ef.chunk.css.map": "/repository-name/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.e4c430ce.chunk.css.map": "/repository-name/static/css/main.e4c430ce.chunk.css.map",
-    "static/media/App.css": "/repository-name/static/media/Background.da386a91.jpg"
+    "main.css": "/portfoliosite/static/css/main.ccf36bcb.chunk.css",
+    "main.js": "/portfoliosite/static/js/main.aa32e42f.chunk.js",
+    "main.js.map": "/portfoliosite/static/js/main.aa32e42f.chunk.js.map",
+    "runtime~main.js": "/portfoliosite/static/js/runtime~main.4f4be5de.js",
+    "runtime~main.js.map": "/portfoliosite/static/js/runtime~main.4f4be5de.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/portfoliosite/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.a501e601.chunk.js": "/portfoliosite/static/js/2.a501e601.chunk.js",
+    "static/js/2.a501e601.chunk.js.map": "/portfoliosite/static/js/2.a501e601.chunk.js.map",
+    "index.html": "/portfoliosite/index.html",
+    "precache-manifest.b6d92f3dcfd655fdc5379a4cf769f812.js": "/portfoliosite/precache-manifest.b6d92f3dcfd655fdc5379a4cf769f812.js",
+    "service-worker.js": "/portfoliosite/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/portfoliosite/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.ccf36bcb.chunk.css.map": "/portfoliosite/static/css/main.ccf36bcb.chunk.css.map",
+    "static/media/App.css": "/portfoliosite/static/media/Background.da386a91.jpg"
   }
 }
