@@ -1,0 +1,109 @@
+.container {
+  margin-top: 15vh;
+  height: 75vh;
+  text-align: center;
+  font-size: calc(10px + 1.25vmin);
+  margin-right: 5vw;
+  float: right;
+}
+
+.topbar {
+  text-align: center;
+  float: left;
+  height: 100vh;
+  background: #0f0f0f;
+  position: fixed;
+  font-size: calc(10px + 1vmin);
+  visibility: hidden;
+}
+
+.title {
+  width: 20vw;
+  display: inline-block;
+  margin-top: 15 vh;
+}
+.ProCon1 {
+  width: 20vw;
+  position: absolute;
+  top: 47vh;
+}
+
+.ProCon2 {
+  width: 20vw;
+  position: absolute;
+  top: 22vh;
+}
+
+.ProCon {
+  width: 20vw;
+  position: absolute;
+  top: 34.5vh;
+}
+
+.img {
+  margin-top: 5vh;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desc {
+  margin-top: 5vh;
+  margin-bottom: 2.5vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  scrollbar-width: none;
+}
+
+.cbar {
+  margin-top: 50vh;
+  color: white;
+  float: right;
+  background-color: #61dafb;
+  width: 5vh;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.topbarA {
+  text-align: center;
+  float: left;
+  height: 100vh;
+  background: #0f0f0f;
+  position: fixed;
+  font-size: calc(10px + 1vmin);
+}
+
+.cbarA {
+  margin-top: 50vh;
+  color: white;
+  float: right;
+  background-color: #61dafb;
+  width: 5vh;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+}
+
+.projContent {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  height: 80vh;
+}
+
+.link {
+  padding: 5px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: black;
+  border-radius: 5px;
+  background-color: #0f0f0f;
+  color: white;
+}

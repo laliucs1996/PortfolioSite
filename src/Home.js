@@ -12,10 +12,10 @@ class Home extends Component {
     this.handleClose = this.handleClose.bind(this);
 
     this.state = {
-      show: false
+      show: false,
+      color: "#61dafb"
     };
   }
-
   handleClose() {
     this.setState({ show: false });
   }
@@ -28,18 +28,24 @@ class Home extends Component {
     return (
       <div className="Home">
         <Navbar fixed="top" bg="light" expand="sm">
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/aboutMe">
             <h1>Larry Liu</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="/">
-                <h5>Home</h5>
-              </Nav.Link>
               <Nav.Link href="/aboutMe">
-                <h5>About Me</h5>
+                <h5
+                  style={{
+                    color: this.state.color
+                  }}
+                >
+                  Home
+                </h5>
               </Nav.Link>
+              {/* <Nav.Link href="/aboutMe">
+                <h5>About Me</h5>
+              </Nav.Link> */}
               <Nav.Link href="/resume">
                 <h5>Resume</h5>
               </Nav.Link>
