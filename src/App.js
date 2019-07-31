@@ -10,7 +10,7 @@ import Projects from "./Projects.js";
 function App() {
   return (
     <HashRouter>
-      <Route path={"/"} exact component={AboutMe} />
+      <Route exact path={"/"} exact component={AboutMe} />
       {/* <Route path={"aboutMe"} component={AboutMe} /> */}
       <Route path={"/resume"} component={Resume} />
       <Route path={"/projects"} component={Projects} />
