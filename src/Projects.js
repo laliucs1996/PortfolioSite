@@ -29,13 +29,13 @@ class Projects extends Component {
     return (
       <div className="Home">
         <Navbar fixed="top" bg="light" expand="sm">
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="#/">
             <h1>Larry Liu</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="/">
+              <Nav.Link href="#/">
                 <h5>Home</h5>
               </Nav.Link>
               {/* <Nav.Link href="/aboutMe">
