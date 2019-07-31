@@ -2,7 +2,7 @@
   "name": "laliusite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://laliucs1996.github.io/PortfolioSite/",
+  "homepage": "https://laliucs1996.github.io/LarryLiu/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
