@@ -16,7 +16,7 @@ class Projects extends Component {
     textColorB: "#61dafb",
     bgColorC: "#0f0f0f ",
     textColorC: "white",
-    image: "media/spruce.png",
+    image: "media/Spruce.png",
     visibility: "visible",
     visibilityA: "hidden",
     marginright: "15vh",
@@ -163,7 +163,7 @@ class Projects extends Component {
       textColorB: "#61dafb",
       bgColorC: "#0f0f0f ",
       textColorC: "white",
-      image: "media/spruce.png",
+      image: "media/Spruce.png",
       site: "https://github.com/laliucs1996/Spruce"
     });
   };
@@ -177,7 +177,7 @@ class Projects extends Component {
       textColorC: "#61dafb",
       bgColorB: "#0f0f0f ",
       textColorB: "white",
-      image: "media/compthings.png",
+      image: "media/CompThings.png",
       site: "https://github.com/laliucs1996/Python-Based-Compiler"
     });
   };
