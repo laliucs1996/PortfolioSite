@@ -13,7 +13,7 @@ class AboutMe extends Component {
     return (
       <div className="Home">
         <Navbar fixed="top" bg="light" expand="sm">
-          <Navbar.Brand href="/AboutMe">
+          <Navbar.Brand href="/">
             <h1>Larry Liu</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,7 +22,7 @@ class AboutMe extends Component {
               {/* <Nav.Link href="/">
                 <h5>Home</h5>
               </Nav.Link> */}
-              <Nav.Link href="/aboutMe">
+              <Nav.Link href="/">
                 <h5
                   style={{
                     color: this.state.color
@@ -31,10 +31,10 @@ class AboutMe extends Component {
                   Home
                 </h5>
               </Nav.Link>
-              <Nav.Link href="/resume">
+              <Nav.Link href="#/resume">
                 <h5>Resume</h5>
               </Nav.Link>
-              <Nav.Link href="/projects">
+              <Nav.Link href="#/projects">
                 <h5>Projects</h5>
               </Nav.Link>
               <Nav.Link />
@@ -65,7 +65,7 @@ class AboutMe extends Component {
     );
   }
   componentDidMount() {
-    document.title = "About Me!";
+    document.title = "Home";
   }
 }
 

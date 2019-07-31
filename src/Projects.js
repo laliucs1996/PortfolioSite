@@ -29,22 +29,22 @@ class Projects extends Component {
     return (
       <div className="Home">
         <Navbar fixed="top" bg="light" expand="sm">
-          <Navbar.Brand href="/aboutme">
+          <Navbar.Brand href="/">
             <h1>Larry Liu</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="/aboutMe">
+              <Nav.Link href="/">
                 <h5>Home</h5>
               </Nav.Link>
               {/* <Nav.Link href="/aboutMe">
                 <h5>About Me</h5>
               </Nav.Link> */}
-              <Nav.Link href="/resume">
+              <Nav.Link href="#/resume">
                 <h5>Resume</h5>
               </Nav.Link>
-              <Nav.Link href="/projects">
+              <Nav.Link href="#/projects">
                 <h5
                   style={{
                     color: this.state.color
@@ -230,7 +230,6 @@ class Projects extends Component {
     document.body.style.width = "100%";
     document.body.style.height = "100%";
     document.body.style.overflow = "hidden";
-    document.html.style.overlow = "hidden";
   }
 }
 

@@ -9,9 +9,9 @@ import Projects from "./Projects.js";
 
 function App() {
   return (
-    <HashRouter baseName="/Larry">
-      <Route path={"/"} exact component={Home} />
-      <Route path={"/aboutMe"} component={AboutMe} />
+    <HashRouter>
+      <Route path={"/"} exact component={AboutMe} />
+      {/* <Route path={"aboutMe"} component={AboutMe} /> */}
       <Route path={"/resume"} component={Resume} />
       <Route path={"/projects"} component={Projects} />
     </HashRouter>
