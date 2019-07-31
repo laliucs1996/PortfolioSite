@@ -14,7 +14,6 @@ function App() {
       {/* <Route path={"aboutMe"} component={AboutMe} /> */}
       <Route path={"/resume"} component={Resume} />
       <Route path={"/projects"} component={Projects} />
-      <Route component={AboutMe} />
     </HashRouter>
   );
 }
