@@ -1,6 +1,6 @@
 
 ## This Project
-This project is a portfolio website created to host my featured projects, resume and links to my github and linkedin. It uses two packages for certain components, react-bootstrap and react-social-icons for a better look and feel to the navbar. It also uses react-router-dom for routing to each of the tabs in the navbar. Every other component was self-created via react.js and css.  
+This project is a portfolio website created to host my featured projects, resume and links to my github and linkedin. It uses two packages for certain components, react-bootstrap and react-social-icons for a better look and feel to the navbar. It also uses react-router-dom for routing to each of the tabs in the navbar. Every other component was created using react.js and css.  
 
 ## Available Scripts
 
