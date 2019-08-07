@@ -101,7 +101,7 @@ class Projects extends Component {
             }}
             onClick={this.handleClickA}
           >
-            MythChat
+            ArgoChat
           </div>
         </div>
         <div
@@ -142,7 +142,7 @@ class Projects extends Component {
   handleClickA = () => {
     this.setState({
       text:
-        "Mythchat is a work in progress, it will feature a chat bot that talks about many characters from various mythos.",
+        "ArgoChat is a work in progress, it will feature a chat bot that talks about many characters from the Greel mythos.",
       bgColorB: "#0f0f0f ",
       textColorB: "white",
       bgColorA: "#0f0f0f ",
