@@ -16,5 +16,5 @@ You will also see any lint errors in the console.
 
 ### `npm run deploy`
 
-Deploys the app to a target web address.
+Deploys the app to a target web address. <br/>
 Address can be designated in packages.json.
