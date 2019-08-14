@@ -150,7 +150,7 @@ class Projects extends Component {
       bgColorC: "#0f0f0f ",
       textColorC: "white",
       image: "media/soontm.jpg",
-      site: "#"
+      site: "https://github.com/laliucs1996/Aletheia"
     });
   };
   handleClickB = () => {
