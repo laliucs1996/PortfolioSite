@@ -142,21 +142,21 @@ class Projects extends Component {
   handleClickA = () => {
     this.setState({
       text:
-        "Aletheia is a work in progress, it will feature a chat bot that talks about many characters from the Greek mythos.",
+        "Aletheia is a chatbot that gives fun and interesting descriptions and assorted facts about the Twelve Olympians.",
       bgColorB: "#0f0f0f ",
       textColorB: "white",
       bgColorA: "#0f0f0f ",
       textColorA: "#61dafb",
       bgColorC: "#0f0f0f ",
       textColorC: "white",
-      image: "media/soontm.jpg",
+      image: "media/Aletheia.png",
       site: "https://github.com/laliucs1996/Aletheia"
     });
   };
   handleClickB = () => {
     this.setState({
       text:
-        "A Movie and TV Series reviewing/rating website modeled after Rotten Tomatoes. The website was made using Java, HTML, MySQL, CSS and Javascript.",
+        "A Movie and TV Series reviewing/rating website modeled after Rotten Tomatoes. The website was made using Java and JQuery, HTML, MySQL, CSS and Javascript (Along with AJAX, JSTL and other libraries). Data grabbing was supported by python.",
       bgColorA: "#0f0f0f ",
       textColorA: "white",
       bgColorB: "#0f0f0f ",
