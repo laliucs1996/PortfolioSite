@@ -5,7 +5,7 @@
   "homepage": "https://laliucs1996.github.io/LarryLiu/",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "pdfobject": "^2.1.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
